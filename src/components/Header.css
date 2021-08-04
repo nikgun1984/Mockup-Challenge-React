@@ -1,0 +1,42 @@
+.Header-container {
+	display: flex;
+	flex-direction: row;
+	height: 101px;
+	align-items: center;
+	border: 1px solid #E0EEF2;
+}
+
+.Header-icon {
+	width: 65px;
+	height: 65px;
+	margin: 16px;
+	border-radius: 18px;
+}
+
+.Header-subcontainer{
+	display: flex;
+	flex-direction: column;
+	height: 53px;
+	justify-content: flex-start;
+	margin: 10px;
+}
+
+.Header-name{
+	font-size: 19px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.Header-amount{
+	color: #009330;
+	text-align: left;
+}
+
+.Header-Body-container{
+	display: flex;
+    align-items:center;
+	overflow: hidden;
+	overflow-x: scroll;
+	height: 264px;
+	background-color: #F7FBFC;
+}
